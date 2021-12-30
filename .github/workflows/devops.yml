@@ -1,0 +1,8 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Sample-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 My name is Sara Zamir."
+      - run: echo "🐧 I am studying Devops from Sir Saiem"
